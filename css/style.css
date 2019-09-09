@@ -1,15 +1,16 @@
 
 html,
 body{
-  font-family: 'Play', sans-serif !important; 
+  font-family: 'Cursive', sans-serif !important; 
   margin: 0;
   background:white;
-  background: -moz-linear-gradient(131deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 24%, rgba(102,238,206,1) 53%, rgba(102,161,238,1) 67%, rgba(102,161,238,1) 69%, rgba(102,161,238,1) 76%, rgba(102,161,238,1) 83%, rgba(102,161,238,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(102,161,238,1)), color-stop(17%, rgba(102,161,238,1)), color-stop(24%, rgba(102,161,238,1)), color-stop(31%, rgba(102,161,238,1)), color-stop(33%, rgba(102,161,238,1)), color-stop(47%, rgba(102,238,206,1)), color-stop(76%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); /* safari4+,chrome */
-  background: -webkit-linear-gradient(131deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 24%, rgba(102,238,206,1) 53%, rgba(102,161,238,1) 67%, rgba(102,161,238,1) 69%, rgba(102,161,238,1) 76%, rgba(102,161,238,1) 83%, rgba(102,161,238,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(131deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 24%, rgba(102,238,206,1) 53%, rgba(102,161,238,1) 67%, rgba(102,161,238,1) 69%, rgba(102,161,238,1) 76%, rgba(102,161,238,1) 83%, rgba(102,161,238,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(131deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 24%, rgba(102,238,206,1) 53%, rgba(102,161,238,1) 67%, rgba(102,161,238,1) 69%, rgba(102,161,238,1) 76%, rgba(102,161,238,1) 83%, rgba(102,161,238,1) 100%); /* ie10+ */
-  background: linear-gradient(319deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 24%, rgba(102,238,206,1) 53%, rgba(102,161,238,1) 67%, rgba(102,161,238,1) 69%, rgba(102,161,238,1) 76%, rgba(102,161,238,1) 83%, rgba(102,161,238,1) 100%); /* w3c */
+  background: -moz-linear-gradient(232deg, rgba(0,128,128,1) 0%, rgba(115,115,115,1) 25%, rgba(255,179,179,1) 50%, rgba(97,97,97,1) 75%, rgba(0,87,87,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,87,87,1)), color-stop(25%, rgba(97,97,97,1)), color-stop(50%, rgba(255,179,179,1)), color-stop(75%, rgba(115,115,115,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(232deg, rgba(0,128,128,1) 0%, rgba(115,115,115,1) 25%, rgba(255,179,179,1) 50%, rgba(97,97,97,1) 75%, rgba(0,87,87,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(232deg, rgba(0,128,128,1) 0%, rgba(115,115,115,1) 25%, rgba(255,179,179,1) 50%, rgba(97,97,97,1) 75%, rgba(0,87,87,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(232deg, rgba(0,128,128,1) 0%, rgba(115,115,115,1) 25%, rgba(255,179,179,1) 50%, rgba(97,97,97,1) 75%, rgba(0,87,87,1) 100%); /* ie10+ */
+  background: linear-gradient(218deg, rgba(0,128,128,1) 0%, rgba(115,115,115,1) 25%, rgba(255,179,179,1) 50%, rgba(97,97,97,1) 75%, rgba(0,87,87,1) 100%); /* w3c */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#005757',GradientType=0 ); /* ie6-9 */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -23,7 +24,7 @@ body{
 
 .game-well{
   position: relative;
-  background-color: #fff;
+  background-color: rgba(155, 130, 130, 0.747);
   margin:auto;
   margin-top: 100px;
   margin-bottom: 100px;;
@@ -136,10 +137,10 @@ button::-moz-focus-inner {
 
 .x-gradient-color{
   background: #1d5226; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#A0E8D6, #66eece); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#A0E8D6, #66eece); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#A0E8D6, #66eece); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#A0E8D6, #66eece); /* Standard syntax (must be last) */
+  background: -webkit-linear-gradient(#A0E8D6,rgba(0,128,128,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#A0E8D6,rgba(0,128,128,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#A0E8D6, rgba(0,128,128,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#A0E8D6, rgba(0,128,128,1)); /* Standard syntax (must be last) */
 }
  
 .fa-times{
@@ -149,7 +150,7 @@ button::-moz-focus-inner {
 }
 
 .fa-circle-o{
-  color: #66a1ee;
+  color: #1c3c66;
   transition: 0.3s ease-in;
 }
 
@@ -225,19 +226,19 @@ li:nth-last-child(-n+3){
 }
 
 footer{
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
-  color: #66a1ee;
+  color: rgba(255,179,179,1);
 }
 
 a:link {
   text-decoration: none !important;
   outline:none;
   border:0;
-  color: #66eece !important;
+  color: rgb(13, 15, 15) !important;
 }
 a:visited{
- color: #66eece !important;
+ color: rgb(9, 17, 17) !important;
 }
 
 /*any devices smaller than a tablet*/
